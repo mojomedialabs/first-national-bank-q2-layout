@@ -1,0 +1,156 @@
+@charset "utf-8";
+
+html {
+	height: 100%;
+}
+
+body {
+	background: url(http://placehold.it/1920x1080) no-repeat center center fixed;
+	background-color: transparent;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;
+}
+
+#container {
+	min-height: 100%;
+	width: 100%;
+}
+
+#main-header {
+	background: #ffffff;
+	height: 100px;
+	width: 100%;
+}
+
+#logo {
+	float: left;
+	margin: 10px 0 0 50px;
+	width: 375px;
+}
+
+#online-banking {
+	float: right;
+	margin: 10px 50px 0 0;
+	width: 500px;
+}
+
+#online-banking ul {
+	list-style: none;
+}
+
+#online-banking ul li {
+	float: left;
+	text-align: center;
+	width: 60px;
+}
+
+#main {
+	width: 100%;
+}
+
+#main-footer {
+	width: 100%;
+}
+
+#main-nav {
+	float: left;
+	margin: 20px 0 0 100px;
+	width: 360px;
+}
+
+#main-nav > ul> li {
+	background: #000000;
+	border: 10px solid rgba(200, 200, 200, .3);
+	color: #ffffff;
+	display: inline-block;
+	float: left;
+	height: 140px;
+	margin: 10px;
+	position: relative;
+	width: 140px;
+}
+
+#main-nav > ul > li > ul {
+	background: rgba(255, 0, 0, .8);
+	display: none;
+	height: 325px;
+	left: 130px;
+	position: absolute;
+	top: 130px;
+	width: 200px;
+	z-index: 2;
+}
+
+#main-nav > ul > li > .menu-image {
+	background: rgba(255, 0, 0, .8);
+	display: none;
+	height: 325px;
+	left: 330px;
+	position: absolute;
+	top: 130px;
+	width: 200px;
+	z-index: 2;
+}
+
+#main-nav > ul > li > ul > li > ul {
+	background: rgba(0, 255, 0, .8);
+	display: none;
+	height: 325px;
+	left: 200px;
+	position: absolute;
+	top: 0;
+	width: 200px;
+	z-index: 2;
+}
+
+#main-nav > ul > li > ul > li > ul > li > ul {
+	background: rgba(255, 255, 0, .8);
+	display: none;
+	height: 325px;
+	left: 200px;
+	position: absolute;
+	top: 0;
+	width: 200px;
+	z-index: 2;
+}
+
+#page {
+	background: #abcdef;
+	float: left;
+	overflow-y: scroll;
+	width: 560px;
+}
+
+#main-footer {
+	bottom: 0;
+	color: #ffffff;
+	font-size: 8px;
+	left: 50px;
+	position: fixed;
+}
+
+#main-footer a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#main-footer ul {
+	list-style: none;
+}
+
+#main-footer ul li {
+	border-left: 1px solid #ffffff;
+	display: inline-block;
+	float: left;
+	height: 35px;
+	padding: 0 10px 10px;
+	text-align: center;
+	width: 77px;
+}
+
+#main-footer ul li:last-child {
+	border-right: 1px solid #ffffff;
+}
